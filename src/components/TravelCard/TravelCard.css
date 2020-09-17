@@ -1,0 +1,13 @@
+.img img {
+    width: 150px;
+    height: auto;
+}
+.button {
+    text-align: center;
+}
+.button button {
+    background-color: #f9a51a;
+    padding: 4px 25px;
+    border: none;
+    border-radius: 5px;
+}
