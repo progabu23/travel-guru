@@ -80,15 +80,6 @@ const Login = () => {
     return (
         <div className="container mt-5 text-center" style={{border: '1px solid gray', padding: '20px'}}>
             <div>
-
-                {
-                    user.isSignIn && <div>
-
-                        <h2>Name :{user.name}</h2>
-                        <h3>Email : {user.email}</h3>
-                        <img src={user.photo} alt="" />
-                    </div>
-                }
                 <h3>Login</h3>
                 <form onSubmit={handleSubmit}>
                     <div className="pb-2">
