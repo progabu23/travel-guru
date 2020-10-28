@@ -78,17 +78,8 @@ const Login = () => {
 
 
     return (
-        <div className="container mt-5 text-center" style={{border: '1px solid gray', padding: '20px'}}>
+        <div className="container mt-5 text-center" style={{ border: '1px solid gray', padding: '20px' }}>
             <div>
-
-                {
-                    user.isSignIn && <div>
-
-                        <h2>Name :{user.name}</h2>
-                        <h3>Email : {user.email}</h3>
-                        <img src={user.photo} alt="" />
-                    </div>
-                }
                 <h3>Login</h3>
                 <form onSubmit={handleSubmit}>
                     <div className="pb-2">
@@ -106,10 +97,10 @@ const Login = () => {
                 </form>
 
                 <input type="checkbox" name="newUser" onChange={() => setNewUser(!newUser)} />
-                <label  htmlFor="newUser">Create an account?</label>
+                <label htmlFor="newUser">Create an account?</label>
                 <h1 style={{ color: 'red' }}>{user.error}</h1>
                 {
-                    <button style={{padding: '4px 45px', border: '1px solid gray', borderRadius: '20px' }} onClick={googleSignIn}>Continue With Google</button>
+                    <button style={{ padding: '4px 45px', border: '1px solid gray', borderRadius: '20px' }} onClick={googleSignIn}>Continue With Google</button>
                 }
             </div>
         </div>
