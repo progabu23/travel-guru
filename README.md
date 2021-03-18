@@ -1,4 +1,4 @@
-### Travel Guru | Travel Agency Website
+### Travel Guru | Travel Agency Website.
 
 You can book the place of your choice through the Travel Guru website. 
 
